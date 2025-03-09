@@ -6,7 +6,7 @@ import { Mutex } from 'async-mutex';
 export const TOKEN_REFRESH_BUFFER_SECONDS = 60; // 5 minutes
 const getTimeInSeconds = () => Math.floor(Date.now() / 1000);
 
-// Create a shared mutex for controlling access to the refresh token process
+// Create a shared mutex for controlling access to the refresh token proces
 const refreshTokenMutex = new Mutex();
 
 // Map of refreshed tokens to prevent redundant refreshes
